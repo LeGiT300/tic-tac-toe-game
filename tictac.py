@@ -3,8 +3,6 @@ import random
 
 
 def next_turn(row, column):
-    '''This method indicates the next turn'''
-
     global player
 
     if buttons[row][column]['text'] == '' and check_winner() is False:
